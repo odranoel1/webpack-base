@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  {{> app/components/header }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Bootstrap working...</h3>
+        <button type="button" class="mb-2 btn btn-primary">Primary</button>
+        <button type="button" class="mb-2 btn btn-secondary">Secondary</button>
+        <button type="button" class="mb-2 btn btn-success">Success</button>
+      </div>
+      <div class="col-sm-4">
+        <h3>Fontawesome works!</h3>
+        <i class="fa fa-exclamation"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="col-sm-4">
+        <h3>Image loaded</h3>
+        <img src="./assets/img/webpack.png" alt="Webpack" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  {{> app/components/footer }}
+
+</body>
+
+</html>
